@@ -1,4 +1,4 @@
-### eact-native-maps
+## react-native-maps
 "react-native-maps": "^0.23.0"
 
 cd rntest
@@ -17,3 +17,20 @@ git push -u origin master
 добавить в node_modules/react-native-maps/lib/android/build.gradle
 // This line made Gradle sync successfully
 implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+
+### manifest
+```
+<application>
+   <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+   <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="Your Google maps API Key Here"/>
+</application>
+```
+
+### getting api key
+[maps documentation](https://developers.google.com/maps/documentation/android-sdk/signup)
+[google console](https://console.cloud.google.com/apis/credentials?project=rntest-234913&supportedpurview=project)
+errors in simulator console with ``` <cert_fingerprint>;<package_name> ```
+restrictions for key (android, cert fingerprint, package)
+enable google maps for project
