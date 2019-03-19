@@ -1,3 +1,6 @@
+## react-native docs
+[docs](https://developer.android.com/studio/run/device.html)
+
 ## react-native-maps
 "react-native-maps": "^0.23.0"
 
@@ -34,3 +37,12 @@ implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVer
 errors in simulator console with ``` <cert_fingerprint>;<package_name> ```
 restrictions for key (android, cert fingerprint, package)
 enable google maps for project
+
+### run on device
+[android studio run device](https://developer.android.com/studio/run/device.html)
+[dev options](https://developer.android.com/studio/debug/dev-options.html)
+settings -> system -> about phone -> tap build number 7 times
+settings -> developer options -> usb debugging
+plug phone -> allow connection
+[react-native docs running on device](https://facebook.github.io/react-native/docs/running-on-device)
+react-native run android
