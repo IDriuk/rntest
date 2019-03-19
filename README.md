@@ -38,6 +38,9 @@ errors in simulator console with ``` <cert_fingerprint>;<package_name> ```
 restrictions for key (android, cert fingerprint, package)
 enable google maps for project
 
+keytool -list -keystore my-release-key.keystore
+keytool -list -keystore my-release-key.keystore -alias my-key-alias
+
 ### run on device
 [android studio run device](https://developer.android.com/studio/run/device.html)
 [dev options](https://developer.android.com/studio/debug/dev-options.html)
@@ -61,3 +64,4 @@ app/build gradle
 cd android
 ./gradlew assembleRelease
 android/app/build/outputs/apk/release/app-release.apk
+
