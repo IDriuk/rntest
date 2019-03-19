@@ -33,6 +33,7 @@ errors in simulator console with ``` <cert_fingerprint>;<package_name> ```
 restrictions for key (android, cert fingerprint, package)
 enable google maps for project
 
+Название пакета можно найти в файле AndroidManifest.xml.
 keytool -list -keystore my-release-key.keystore
 keytool -list -keystore my-release-key.keystore -alias my-key-alias
 
