@@ -83,5 +83,7 @@ dependencies {
 }
 ```
 
+- maps works only on real device
+
 ### useful links
 - [debug react native android](https://blog.pusher.com/debugging-react-native-android/)
