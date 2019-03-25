@@ -4,3 +4,7 @@
 - [redux](https://redux.js.org/api/api-reference)
 - [redux-saga](https://redux-saga.js.org/docs/api/)
 - [fetch](https://facebook.github.io/react-native/docs/network)
+
+
+### Bugs
+- onLongPress working from third long pan
